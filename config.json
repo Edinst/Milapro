@@ -16,14 +16,14 @@
 		"enable": false,
 		"ignoreCommand": []
 	},
-	"adminBot": [],
+	"adminBot": ["100066552602287"],
 	"whiteListMode": {
 		"enable": false,
 		"whiteListIds": [],
 		"notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
 	},
-	"nickNameBot": "GoatBot",
-	"prefix": "-",
+	"nickNameBot": "Shinomiya",
+	"prefix": "!",
 	"database": {
 		"type": "sqlite",
 		"uriMongodb": "",
@@ -34,17 +34,16 @@
 	"timeZone": "Asia/Ho_Chi_Minh",
 	"credentials": {
 		"gmailAccount": {
-			"email": "",
-			"clientId": "",
-			"clientSecret": "",
-			"refreshToken": "",
-			"apiKey": ""
-		},
-		"gRecaptcha": {
-			"siteKey": "",
-			"secretKey": ""
-		}
-	},
+      "clientId": "659532519801-f6tpluejtltivhlj5cgv3vri0mu4rgmg.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//045W13fZvQCVxCgYIARAAGAQSNwF-L9Irdp-X2tPJDPp972u_cPn3mphQgpGYEtmio_A9SKdTSwyrZi8YmgY-diciiRMjBIf683Y",
+      "apiKey": ""
+    },
+    "gRecaptcha": {
+      "siteKey": "6LfUJKkiAAAAAJFt5OY8JLy7zY-8cgYqzz8EOEEf",
+      "secretKey": "6LfUJKkiAAAAADg_MoQhKtQH2iSSqajnv2ZvQ2rS"
+    }
+  },
 	"dashBoard": {
 		"enable": true,
 		"expireVerifyCode": 300000,
